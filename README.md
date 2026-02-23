@@ -1,48 +1,50 @@
 # Adidas-US-Interactive-Sales-Project
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Adidas US Interactive Sales Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
+# Adidas US Interactive Sales Dashboard
 
-    <header>
-        <h1>Adidas US Interactive Sales Dashboard</h1>
-        <div class="stats">
-            <div>Retailers: <strong>6</strong></div>
-            <div>Profit: <strong>$332,134,761</strong></div>
-            <div>Units Sold: <strong>2,478,861</strong></div>
-        </div>
-    </header>
+An interactive sales dashboard built using **HTML, CSS, and JavaScript (Chart.js)** to visualize Adidas US sales performance data.
 
-    <div class="dashboard">
+## 📊 Features
 
-        <div class="card">
-            <h3>Retail Sales</h3>
-            <canvas id="retailChart"></canvas>
-        </div>
+- Retail sales performance by retailer
+- Sales distribution by method (In-store, Online, Outlet)
+- Profit breakdown per product category
+- Quarterly sales trend analysis
+- Clean and responsive dashboard layout
 
-        <div class="card">
-            <h3>Sales Method</h3>
-            <canvas id="methodChart"></canvas>
-        </div>
+## 🛠 Technologies Used
 
-        <div class="card">
-            <h3>Profit Per Product</h3>
-            <canvas id="productChart"></canvas>
-        </div>
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Chart.js
 
-        <div class="card">
-            <h3>Sales Trend by Quarters</h3>
-            <canvas id="trendChart"></canvas>
-        </div>
+## 📁 Project Structure
 
-    </div>
-dashboard overview 
+adidas-dashboard/
+│── index.html
+│── style.css
+│── script.js
 
-<script sr<img width="920" height="434" alt="Capture" src="https://github.com/user-attachments/assets/e5838263-80dc-48a8-8568-8f6e987696e6" />
-c="script.js"></script>
-</body>
-</html>
+## 🚀 How to Run
+
+1. Download or clone the repository
+2. Open `index.html` in your browser
+
+Or deploy easily using **GitHub Pages**.
+
+## 📈 Purpose
+
+This project demonstrates data visualization techniques and dashboard design using front-end web technologies.
+
+## 📌 Future Improvements
+
+- Add dynamic filtering (city, year, retailer)
+- Connect to real API or database
+- Improve UI with Bootstrap or React
+- Add export to Excel/PDF feature
+
+---
+
+Developed for learning and portfolio purposes.
+# Dashboard overview 
+<img width="920" height="434" alt="Capture" src="https://github.com/user-attachments/assets/d6495ebd-88e5-4a03-8c43-44b0b94ab890" />
